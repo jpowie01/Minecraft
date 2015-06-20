@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567F8CBB1B359CB600C2B654 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 567F8CBA1B359CB600C2B654 /* ResourcePath.mm */; };
+		567F8CD01B359CED00C2B654 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 567F8CCD1B359CED00C2B654 /* dirt.png */; };
+		567F8CD11B359CED00C2B654 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 567F8CCE1B359CED00C2B654 /* stone.png */; };
+		567F8CD21B359CED00C2B654 /* water_still.png in Resources */ = {isa = PBXBuildFile; fileRef = 567F8CCF1B359CED00C2B654 /* water_still.png */; };
+		567F8CD81B359D3100C2B654 /* chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 567F8CD31B359D3100C2B654 /* chunk.cpp */; };
+		567F8CD91B359D3100C2B654 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 567F8CD61B359D3100C2B654 /* main.cpp */; };
+		567F8CDC1B359D4000C2B654 /* perlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 567F8CDA1B359D4000C2B654 /* perlin.cpp */; };
+		567F8CDE1B359DF600C2B654 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567F8CDD1B359DF600C2B654 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		567F8CB51B359CB600C2B654 /* Minecraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minecraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567F8CB91B359CB600C2B654 /* Minecraft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minecraft-Info.plist"; sourceTree = "<group>"; };
+		567F8CBA1B359CB600C2B654 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		567F8CBC1B359CB600C2B654 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		567F8CCD1B359CED00C2B654 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
+		567F8CCE1B359CED00C2B654 /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		567F8CCF1B359CED00C2B654 /* water_still.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_still.png; sourceTree = "<group>"; };
+		567F8CD31B359D3100C2B654 /* chunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chunk.cpp; sourceTree = "<group>"; };
+		567F8CD41B359D3100C2B654 /* chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
+		567F8CD51B359D3100C2B654 /* cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
+		567F8CD61B359D3100C2B654 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		567F8CD71B359D3100C2B654 /* vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertex.h; sourceTree = "<group>"; };
+		567F8CDA1B359D4000C2B654 /* perlin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perlin.cpp; sourceTree = "<group>"; };
+		567F8CDB1B359D4000C2B654 /* perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
+		567F8CDD1B359DF600C2B654 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		567F8CDF1B359E5F00C2B654 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567F8CB11B359CB600C2B654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567F8CDE1B359DF600C2B654 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567F8CAB1B359CB600C2B654 = {
+			isa = PBXGroup;
+			children = (
+				567F8CDF1B359E5F00C2B654 /* Cocoa.framework */,
+				567F8CDD1B359DF600C2B654 /* OpenGL.framework */,
+				567F8CB71B359CB600C2B654 /* Minecraft */,
+				567F8CB61B359CB600C2B654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567F8CB61B359CB600C2B654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567F8CB51B359CB600C2B654 /* Minecraft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567F8CB71B359CB600C2B654 /* Minecraft */ = {
+			isa = PBXGroup;
+			children = (
+				567F8CD31B359D3100C2B654 /* chunk.cpp */,
+				567F8CD41B359D3100C2B654 /* chunk.h */,
+				567F8CDA1B359D4000C2B654 /* perlin.cpp */,
+				567F8CDB1B359D4000C2B654 /* perlin.h */,
+				567F8CD51B359D3100C2B654 /* cube.h */,
+				567F8CD61B359D3100C2B654 /* main.cpp */,
+				567F8CD71B359D3100C2B654 /* vertex.h */,
+				567F8CBA1B359CB600C2B654 /* ResourcePath.mm */,
+				567F8CBC1B359CB600C2B654 /* ResourcePath.hpp */,
+				567F8CBF1B359CB600C2B654 /* Resources */,
+				567F8CB81B359CB600C2B654 /* Supporting Files */,
+			);
+			path = Minecraft;
+			sourceTree = "<group>";
+		};
+		567F8CB81B359CB600C2B654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567F8CB91B359CB600C2B654 /* Minecraft-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		567F8CBF1B359CB600C2B654 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				567F8CCD1B359CED00C2B654 /* dirt.png */,
+				567F8CCE1B359CED00C2B654 /* stone.png */,
+				567F8CCF1B359CED00C2B654 /* water_still.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567F8CB41B359CB600C2B654 /* Minecraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567F8CCA1B359CB600C2B654 /* Build configuration list for PBXNativeTarget "Minecraft" */;
+			buildPhases = (
+				567F8CB01B359CB600C2B654 /* Sources */,
+				567F8CB11B359CB600C2B654 /* Frameworks */,
+				567F8CB21B359CB600C2B654 /* Resources */,
+				567F8CB31B359CB600C2B654 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minecraft;
+			productName = Minecraft;
+			productReference = 567F8CB51B359CB600C2B654 /* Minecraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567F8CAC1B359CB600C2B654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jakub Powierza";
+				TargetAttributes = {
+					567F8CB41B359CB600C2B654 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 567F8CAF1B359CB600C2B654 /* Build configuration list for PBXProject "Minecraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 567F8CAB1B359CB600C2B654;
+			productRefGroup = 567F8CB61B359CB600C2B654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567F8CB41B359CB600C2B654 /* Minecraft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567F8CB21B359CB600C2B654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567F8CD21B359CED00C2B654 /* water_still.png in Resources */,
+				567F8CD01B359CED00C2B654 /* dirt.png in Resources */,
+				567F8CD11B359CED00C2B654 /* stone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		567F8CB31B359CB600C2B654 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567F8CB01B359CB600C2B654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567F8CBB1B359CB600C2B654 /* ResourcePath.mm in Sources */,
+				567F8CDC1B359D4000C2B654 /* perlin.cpp in Sources */,
+				567F8CD81B359D3100C2B654 /* chunk.cpp in Sources */,
+				567F8CD91B359D3100C2B654 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		567F8CC81B359CB600C2B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		567F8CC91B359CB600C2B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		567F8CCB1B359CB600C2B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Minecraft/Minecraft-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		567F8CCC1B359CB600C2B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Minecraft/Minecraft-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567F8CAF1B359CB600C2B654 /* Build configuration list for PBXProject "Minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567F8CC81B359CB600C2B654 /* Debug */,
+				567F8CC91B359CB600C2B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567F8CCA1B359CB600C2B654 /* Build configuration list for PBXNativeTarget "Minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567F8CCB1B359CB600C2B654 /* Debug */,
+				567F8CCC1B359CB600C2B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567F8CAC1B359CB600C2B654 /* Project object */;
+}
